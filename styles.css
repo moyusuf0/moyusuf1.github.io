@@ -1,0 +1,45 @@
+nav {border-style: solid; 
+    border-width: 0.15em;
+    border-color:rgb(251, 33, 125) ;
+     border-radius: 2em; padding: 1em;
+     font-family: 'Concert One', cursive; 
+       }
+       nav a { padding-left: 5em;
+        color:rgb(251, 33, 125);
+        font-family: 'Montserrat', sans-serif;
+        }
+        .row {display: flex; 
+       }
+        .Left-column {height: 40vh; flex: 50%;}
+        .Right-Coloumn {height:40vh; 
+        flex:50%; 
+    
+        /* About */
+        /* Members */
+        background-position:center;
+         background-size: contain;
+         background-repeat: no-repeat;}
+         #Right-Coloumn-Home {
+            background-image: url(Images/friends.png); 
+         }
+         #Right-Coloumn-About { 
+            background-image: url(Images/fun.png);
+         }
+         #Right-Coloumn-Members {
+            background-image: url(Images/selfie.png);
+         }
+         .Main-heading {font-family: 'Concert One', cursive; font-size: 4em;
+          color: rgb(251, 33, 125);
+           padding-top: 1em;
+           }
+           #Content-Area {font-family: 'Montserrat', sans-serif; 
+             margin-top: 6em;}
+             #Layout-Container {
+                width: 80%;
+                margin-left: auto;
+                 margin-right: auto;
+
+             }
+             #Password-Area {
+                margin-top: 5em;
+             }
